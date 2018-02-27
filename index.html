@@ -2,121 +2,16 @@
 <head>
 <title>Try Jupyter!</title>
 <link rel="shortcut icon" type="image/png" href="favicon.png" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<style type="text/css">
-h1 {
-  font-size: 400%;
-  text-align: center;
-  font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
-  margin-top: 0px;
-  padding: 16px;
-  border-bottom: 1px solid #e0e0e0;
-}
-
-.try-links {
-  text-align: center;
-  margin: auto;
-  /*background-color: #e0e0e0;*/
-}
-
-.try-links a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.try-links a:visited {
-  color: inherit;
-}
-
-.try-links img {
-  width: 240px;
-  height: 100px;
-  object-fit: contain;
-  margin: auto;
-}
-
-.try-links li:hover {
-  box-shadow: 8px 8px 6px #aaa;
-  border-color: #E46E2E;
-;
-}
-
-.try-links li {
-  vertical-align: top;
-  box-shadow: 2px 2px 6px #aaa;
-  border: 2px solid transparent;
-  width: 300px;
-  height: 240px;
-  display: inline-block;
-  padding: 16px;
-  margin: 8px;
-}
-
-#logo {
-  float: left;
-  /* margin-right -100 to avoid messing up center-alignment */
-  margin-right: -100%;
-  height: 64px;
-}
-</style>
 </head>
 
 <body>
+try.jupyter.org has moved to
+<a href="https://jupyter.org/try">jupyter.org/try</a>.
+You will be redirected shortly.
 
-<div class="container">
-  <h1>
-  <img id="logo" src="img/jupyter-logo.svg">
-    Try Jupyter!
-  </h1>
-  <p class="lead">
-    You can try Jupyter out right now, without installing anything.
-    Click the desired link below and you will get a temporary Jupyter server
-    just for you, running on <a href="https://mybinder.org">mybinder.org</a>.
-    If you like it, you can <a href="https://jupyter.org/install.html">
-    install Jupyter</a> yourself.
-  </p>
-
-
-  <ul class="try-links">
-    <a href="https://mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb">
-      <li>
-        <img src="img/python.svg"/>
-        <h3>Try Jupyter with Python</h3>
-        <p>
-          A tutorial introducing basic features of Jupyter notebooks
-          and the IPython kernel.
-        </p>
-      </li>
-    </a>
-
-    <a href="https://mybinder.org/v2/gh/binder-examples/julia-python/master?filepath=julia.ipynb">
-      <li>
-        <img src="img/julia.svg"/>
-        <h3>Try Jupyter with Julia</h3>
-        <p>
-          A basic example of using Jupyter with Julia.
-        </p>
-      </li>
-    </a>
-
-    <a href="https://mybinder.org/v2/gh/binder-examples/r/master?filepath=index.ipynb">
-      <li>
-        <img src="img/R.svg"/>
-        <h3>Try Jupyter with R</h3>
-        <p>
-          A basic example of using Jupyter with R.
-        </p>
-      </li>
-    </a>
-
-  </ul>
-</div>
 <script>
-  if (window.location.protocol === 'http:') {
-      // redirect to https
-      window.location = 'https' + window.location.href.slice(4);
-  }
+  window.location = "https://jupyter.org/try";
 </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
